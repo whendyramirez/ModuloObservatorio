@@ -78,7 +78,7 @@ color:#0a3a75;
 {
   color:#0a3a75;; /* Color destacado */
   font-weight: bold;
-  border-bottom: 2px solid #ff0000; /* O subrayado */
+  border-bottom: 2px solid #e7e6f5; /* O subrayado */
 }
 /* TARJETAS */
 
@@ -97,6 +97,14 @@ box-shadow:0 4px 12px rgba(0,0,0,0.1);
 width:48%;
 }
 
+.card-body1{
+background:white;
+border-radius:1px;
+overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+width:130%;
+}
+
 /* IMAGEN */
 
 .card img{
@@ -110,7 +118,9 @@ object-fit:cover;
 .card-body{
 padding:20px;
 }
-
+.card-body1{
+padding:10px;
+}
 .card-body h3{
 color:#0a3a75;
 margin-top:0;
@@ -127,6 +137,20 @@ margin-top:10px;
 }
 
 .card button:hover{
+background:#1168d2;
+}
+
+.card1 button{
+background:#0a3a75;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.card1 button:hover{
 background:#1168d2;
 }
 
